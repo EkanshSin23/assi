@@ -1,0 +1,59 @@
+.img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200px;
+    background-image: url('https://code-cache.com/en/wp-content/uploads/2021/09/code9.jpg');
+    // object-fit: fill;
+    background-size: contain;
+    width: 100%;
+}
+
+.preview_container {
+    display: flex;
+    width: 100%;
+    padding: 50px 100px;
+    background-color: beige;
+
+    .left {
+        flex: 1;
+
+        h1 {
+            font-size: 45px;
+            text-transform: capitalize;
+
+        }
+
+        p {
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+    }
+
+    .right {
+        flex: 1;
+
+        h2 {
+            font-size: 30px;
+            color: red;
+
+        }
+
+        a {
+            text-decoration: none;
+
+
+        }
+
+        p {
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+    }
+}
